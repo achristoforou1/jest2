@@ -61,8 +61,8 @@ function playerTurn() {
             game.score++
             showScore();
             addTurn();
-        };
-    };
+        }
+    }
 }
 
 module.exports = { game, newGame, showScore, addTurn, lightsOn, showTurns, playerTurn };
